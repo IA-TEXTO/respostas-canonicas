@@ -4,4 +4,6 @@ version = "0.1.0"
 description = "Comparar diferentes métodos de obter respostas canônicas a partir de perguntas parecidas"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "aiml>=0.9.2",
+]

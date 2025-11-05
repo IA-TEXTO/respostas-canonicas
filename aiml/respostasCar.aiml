@@ -1,0 +1,131 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+  <!-- ===================== CANÔNICOS (SOMENTE CHAMADOS POR SRAI) ===================== -->
+
+  <category>
+    <pattern>CANON O QUE E CAR</pattern>
+    <template>
+      O Cadastro Ambiental Rural (CAR) é um registro público eletrônico, de abrangência nacional e obrigatório para todos os imóveis rurais. Ele integra informações ambientais (APP, Reserva Legal, uso restrito etc.) para controle, monitoramento, planejamento e combate ao desmatamento. :contentReference[oaicite:3]{index=3}
+    </template>
+  </category>
+
+  <category>
+    <pattern>CANON INSCRICAO E OBRIGATORIA</pattern>
+    <template>
+      Sim. A inscrição no CAR é obrigatória para todo imóvel rural (propriedade ou posse), público ou privado. :contentReference[oaicite:4]{index=4}
+    </template>
+  </category>
+
+  <category>
+    <pattern>CANON COMO RECUPERAR SENHA CENTRAL</pattern>
+    <template>
+      A senha da Central do Proprietário/Possuidor é recuperada informando CPF/CNPJ e e-mail cadastrados. Uma senha provisória é enviada ao e-mail e, no primeiro acesso, você define a nova senha. Se não tiver acesso ao e-mail antigo, procure o órgão estadual competente para atualização. :contentReference[oaicite:5]{index=5}
+    </template>
+  </category>
+
+  <category>
+    <pattern>CANON COMO BAIXAR ARQUIVO CAR E RECIBO</pattern>
+    <template>
+      Use a <think></think>Central do Proprietário/Possuidor para baixar o arquivo “.CAR” e a segunda via do Recibo de Inscrição (opções “Baixar o arquivo .CAR” e “Recibo de inscrição”). :contentReference[oaicite:6]{index=6}
+    </template>
+  </category>
+
+  <category>
+    <pattern>CANON COMO RETIFICAR CAR</pattern>
+    <template>
+      A retificação é feita no Módulo de Cadastro, aba “Retificar”: informe o número do recibo, importe o arquivo “.car” e faça as correções. Se não tiver o arquivo, recupere-o pela Central do Proprietário/Possuidor. :contentReference[oaicite:7]{index=7}
+    </template>
+  </category>
+
+  <category>
+    <pattern>CANON COMO CONSULTAR CAR</pattern>
+    <template>
+      Você pode usar a “Consulta Pública” (SICAR) para verificar a situação do CAR ou consultar um CAR específico informando o número do recibo. (Ver seção “Consultas” no portal SICAR.)
+    </template>
+  </category>
+
+  <category>
+    <pattern>CANON ACESSO CONTA GOVBR</pattern>
+    <template>
+      O acesso ao CAR/SICAR passou a ser feito com a conta gov.br. Para criar a conta ou tirar dúvidas sobre autenticação, use os canais oficiais do gov.br (os gestores estaduais não prestam suporte sobre a conta gov.br). :contentReference[oaicite:8]{index=8}
+    </template>
+  </category>
+
+  <category>
+    <pattern>CANON VINCULAR REPRESENTANTE</pattern>
+    <template>
+      Para dar acesso a um profissional (representante ou representante legal), acesse a Central do Proprietário/Possuidor &gt; “Gerenciar Vínculos” e faça o vínculo. O profissional acessará o CAR pela própria conta gov.br. Não compartilhe suas credenciais. :contentReference[oaicite:9]{index=9}
+    </template>
+  </category>
+
+  <category>
+    <pattern>CANON O QUE E RECIBO</pattern>
+    <template>
+      Ao concluir e enviar o cadastro ao servidor federal, é emitido um recibo com o número do CAR e dados do proprietário/possuidor; você pode emitir segunda via pela Central. :contentReference[oaicite:10]{index=10}
+    </template>
+  </category>
+
+  <!-- ===================== INTENÇÕES DO USUÁRIO (VARIAÇÕES) ===================== -->
+
+  <!-- O QUE É O CAR -->
+  <category><pattern>O QUE E O CAR</pattern><template><srai>CANON O QUE E CAR</srai></template></category>
+  <category><pattern>O QUE E CAR</pattern><template><srai>CANON O QUE E CAR</srai></template></category>
+  <category><pattern>O QUE E O CADASTRO AMBIENTAL RURAL</pattern><template><srai>CANON O QUE E CAR</srai></template></category>
+  <category><pattern>O QUE O CADASTRO AMBIENTAL RURAL</pattern><template><srai>CANON O QUE E CAR</srai></template></category>
+  <category><pattern>EXPLIQUE O CAR</pattern><template><srai>CANON O QUE E CAR</srai></template></category>
+  <category><pattern>QUEM PRECISA FAZER O CAR</pattern><template><srai>CANON INSCRICAO E OBRIGATORIA</srai></template></category>
+  <category><pattern>INSCRICAO NO CAR E OBRIGATORIA</pattern><template><srai>CANON INSCRICAO E OBRIGATORIA</srai></template></category>
+  <category><pattern>E OBRIGATORIO FAZER O CAR</pattern><template><srai>CANON INSCRICAO E OBRIGATORIA</srai></template></category>
+
+  <!-- SENHA / ACESSO -->
+  <category><pattern>ESQUECI MINHA SENHA</pattern><template><srai>CANON COMO RECUPERAR SENHA CENTRAL</srai></template></category>
+  <category><pattern>COMO RECUPERAR SENHA</pattern><template><srai>CANON COMO RECUPERAR SENHA CENTRAL</srai></template></category>
+  <category><pattern>RECUPERAR SENHA CENTRAL PROPRIETARIO</pattern><template><srai>CANON COMO RECUPERAR SENHA CENTRAL</srai></template></category>
+  <category><pattern>NAO TENHO MAIS ACESSO AO EMAIL</pattern><template><srai>CANON COMO RECUPERAR SENHA CENTRAL</srai></template></category>
+  <category><pattern>ACESSO COM CONTA GOV BR</pattern><template><srai>CANON ACESSO CONTA GOVBR</srai></template></category>
+  <category><pattern>COMO CRIAR CONTA GOV BR</pattern><template><srai>CANON ACESSO CONTA GOVBR</srai></template></category>
+  <category><pattern>PROBLEMAS COM GOV BR</pattern><template><srai>CANON ACESSO CONTA GOVBR</srai></template></category>
+
+  <!-- ARQUIVO .CAR / RECIBO -->
+  <category><pattern>COMO BAIXAR ARQUIVO CAR</pattern><template><srai>CANON COMO BAIXAR ARQUIVO CAR E RECIBO</srai></template></category>
+  <category><pattern>BAIXAR O CAR</pattern><template><srai>CANON COMO BAIXAR ARQUIVO CAR E RECIBO</srai></template></category>
+  <category><pattern>SEGUNDA VIA DO RECIBO</pattern><template><srai>CANON COMO BAIXAR ARQUIVO CAR E RECIBO</srai></template></category>
+  <category><pattern>COMO PEGAR O RECIBO DO CAR</pattern><template><srai>CANON COMO BAIXAR ARQUIVO CAR E RECIBO</srai></template></category>
+  <category><pattern>O QUE E O RECIBO DO CAR</pattern><template><srai>CANON O QUE E RECIBO</srai></template></category>
+
+  <!-- RETIFICAR -->
+  <category><pattern>COMO RETIFICAR O CAR</pattern><template><srai>CANON COMO RETIFICAR CAR</srai></template></category>
+  <category><pattern>RETIFICAR CAR</pattern><template><srai>CANON COMO RETIFICAR CAR</srai></template></category>
+  <category><pattern>ALTERAR DADOS DO CAR</pattern><template><srai>CANON COMO RETIFICAR CAR</srai></template></category>
+
+  <!-- CONSULTA -->
+  <category><pattern>COMO CONSULTAR O CAR</pattern><template><srai>CANON COMO CONSULTAR CAR</srai></template></category>
+  <category><pattern>CONSULTA PUBLICA CAR</pattern><template><srai>CANON COMO CONSULTAR CAR</srai></template></category>
+  <category><pattern>CONSULTAR UM CAR</pattern><template><srai>CANON COMO CONSULTAR CAR</srai></template></category>
+
+  <!-- REPRESENTANTE / VÍNCULOS -->
+  <category><pattern>COMO VINCULAR REPRESENTANTE</pattern><template><srai>CANON VINCULAR REPRESENTANTE</srai></template></category>
+  <category><pattern>DAR ACESSO AO MEU TECNICO</pattern><template><srai>CANON VINCULAR REPRESENTANTE</srai></template></category>
+  <category><pattern>GERENCIAR VINCULOS</pattern><template><srai>CANON VINCULAR REPRESENTANTE</srai></template></category>
+
+  <!-- VARIACOES “OPCIONAIS” COM CURINGA NO FINAL (cobre pontuação/palavras) -->
+  <category><pattern>O QUE E O CAR *</pattern><template><srai>CANON O QUE E CAR</srai></template></category>
+  <category><pattern>COMO RETIFICAR O CAR *</pattern><template><srai>CANON COMO RETIFICAR CAR</srai></template></category>
+  <category><pattern>COMO CONSULTAR O CAR *</pattern><template><srai>CANON COMO CONSULTAR CAR</srai></template></category>
+  <category><pattern>COMO BAIXAR ARQUIVO CAR *</pattern><template><srai>CANON COMO BAIXAR ARQUIVO CAR E RECIBO</srai></template></category>
+  <category><pattern>ESQUECI MINHA SENHA *</pattern><template><srai>CANON COMO RECUPERAR SENHA CENTRAL</srai></template></category>
+  <category><pattern>ACESSO COM CONTA GOV BR *</pattern><template><srai>CANON ACESSO CONTA GOVBR</srai></template></category>
+
+  <!-- COBRINDO “É” -> “E” NA NORMALIZAÇÃO -->
+  <category><pattern>O QUE E O CADASTRO AMBIENTAL RURAL *</pattern><template><srai>CANON O QUE E CAR</srai></template></category>
+  <category><pattern>O QUE E CADASTRO AMBIENTAL RURAL *</pattern><template><srai>CANON O QUE E CAR</srai></template></category>
+
+  <!-- FALLBACK SIMPLES PARA PERGUNTAS CONTENDO “CAR” -->
+  <category>
+    <pattern>* CAR *</pattern>
+    <template>
+      Posso ajudar com: o que é o CAR, inscrição obrigatória, recuperar senha/“.car”/recibo, retificação, consulta pública, conta gov.br e vínculo de representante. Diga, por favor!
+    </template>
+  </category>
+
+</aiml>
