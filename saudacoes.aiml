@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>OLA</pattern>
+    <template>Olá! Como posso ajudar?</template>
+  </category>
+  <category>
+    <pattern>O*LA</pattern>
+    <template>Olá! Posso te ajudar com algo?</template>
+  </category>
+  <category>
+    <pattern>OI</pattern>
+    <template>Oi! Como posso ajudar?</template>
+  </category>
+</aiml>

@@ -1,0 +1,29 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+  <category>
+    <pattern>OLÁ</pattern>
+    <template>Olá, tudo bem? :)</template>
+  </category>
+
+  <category>
+  <pattern>QUAL SEU NOME</pattern>
+  <template><srai>QUAL * SEU NOME</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUAL * SEU NOME</pattern>
+    <template>Eu sou um chatbot criado em AIML.</template>
+  </category>
+
+  <category>
+  <pattern>BELO DIA</pattern>
+  <template>
+    <random>
+      <li>Tô bem!</li>
+      <li>Suave na nave</li>
+      <li>Indo, né? kkk</li>
+    </random>
+  </template>
+  </category>
+
+</aiml>
