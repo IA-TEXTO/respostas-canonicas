@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "Comparar diferentes métodos de obter respostas canônicas a partir de perguntas parecidas"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faiss-cpu>=1.12.0",
+    "langchain>=1.0.3",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.0.2",
+]

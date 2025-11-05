@@ -1,0 +1,30 @@
+[
+    {
+        "pergunta": "O que é o Cadastro Ambiental Rural – CAR e qual é a sua finalidade?",
+        "resposta": "O Cadastro Ambiental Rural – CAR é um registro público eletrônico nacional, obrigatório para todos os imóveis rurais, com a finalidade de integrar as informações ambientais das propriedades e posses rurais, compondo base de dados para controle, monitoramento, planejamento ambiental e econômico e combate ao desmatamento. Foi criado pela Lei 12.651/2012, art. 29."
+    },
+    {
+        "pergunta": "O que é o Sistema de Cadastro Ambiental Rural - SICAR?",
+        "resposta": "O Sistema de Cadastro Ambiental Rural – SICAR é o responsável por emitir o Recibo de Inscrição do imóvel rural no CAR, confirmando a efetivação do cadastramento e o envio da documentação exigida para a análise da localização da área de Reserva Legal. É um sistema eletrônico nacional destinado ao gerenciamento de informações ambientais dos imóveis rurais, com objetivos de integrar dados do CAR, cadastrar e controlar informações ambientais, monitorar vegetação nativa e áreas de preservação, promover o planejamento ambiental e disponibilizar informações públicas sobre a regularização ambiental. Foi criado pelo Decreto nº 7.830/2012, art. 3º."
+    },
+    {
+        "pergunta": "Quais são as situações em que os filtros automáticos do Sistema de Cadastro Ambiental Rural – SICAR não permitem finalização da inscrição do imóvel rural no CAR?",
+        "resposta": "O SICAR possui filtros automáticos que impedem a finalização da inscrição quando há divergências ou inconsistências, como: imóvel fora dos limites do Brasil (tolerância de até 1 km), cadastro no estado errado (menos de 50% da área), município sem parte do perímetro, sobreposição acima de 30% com outro imóvel de mesmo CPF/CNPJ, e divergência entre área declarada e vetorizada acima dos limites permitidos (100% para imóveis até 4 módulos fiscais e 50% para maiores). Também não é permitido enviar o arquivo '.car' de um módulo estadual pelo portal nacional."
+    },
+    {
+        "pergunta": "Quais são os casos em que os filtros automáticos do Sistema de Cadastro Ambiental Rural – SICAR alteram a situação do imóvel para pendente?",
+        "resposta": "O SICAR marca o imóvel como 'Pendente' quando há sobreposição total ou parcial com Terras Indígenas homologadas, Unidades de Conservação (Reserva de Fauna, Reserva Biológica, Parque Nacional e Estação Ecológica) acima dos limites de tolerância (10% pequenos, 5% médios, 3% grandes) ou áreas embargadas pelo IBAMA. A situação pode ser verificada no Demonstrativo da Situação do CAR no site https://www.car.gov.br, e o proprietário pode retificar ou enviar documentação complementar na Central do Proprietário/Possuidor."
+    },
+    {
+        "pergunta": "Qual é o prazo para inscrição do imóvel rural no CAR?",
+        "resposta": "De acordo com o Decreto 9.395/2018, o prazo final para inscrição no CAR e adesão ao Programa de Regularização Ambiental (PRA) foi 31 de dezembro de 2018. Após essa data, instituições financeiras só concedem crédito agrícola a proprietários com imóvel rural inscrito no CAR."
+    },
+    {
+        "pergunta": "Como fazer a inscrição do imóvel rural no CAR?",
+        "resposta": "A inscrição é feita por meio do sistema eletrônico do órgão estadual competente, no estado onde o imóvel se localiza. Os estados e o Distrito Federal oferecem interfaces próprias integradas ao SICAR para inscrição, consulta e acompanhamento da regularização ambiental. Os links de acesso estão disponíveis em https://www.car.gov.br/#/contatos."
+    },
+    {
+        "pergunta": "Para que serve a inscrição do imóvel rural no CAR?",
+        "resposta": "A inscrição no CAR serve para cumprir a obrigatoriedade de registro ambiental dos imóveis rurais e possibilitar: emissão do Recibo de Inscrição, registro da Reserva Legal, adesão aos Programas de Regularização Ambiental (PRA), acesso a programas governamentais, solicitações de autorizações ambientais (supressão de vegetação, aquicultura, exploração sustentável, etc.), constituição de servidão e Cota de Reserva Ambiental, e acesso ao crédito agrícola a partir de 31 de dezembro de 2017."
+    }
+]
