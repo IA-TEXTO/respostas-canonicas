@@ -45,7 +45,7 @@ def adicionar_pergunta_resposta(pergunta: str, resposta: str):
     print("Pergunta e resposta adicionadas com sucesso!")
 
 if __name__ == "__main__":
-    with open(str(Path(__file__).parent / "perguntas.json"), "r") as f:
+    with open(str(Path(__file__).parent / "perguntas.json"), "r", ensure_ascii=False) as f:
         conteudo = f.read()
         dados = json.loads(conteudo)
         for item in dados:
